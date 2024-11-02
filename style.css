@@ -24,9 +24,16 @@ body {
   color: var(--color-stone-600);
   font-family: "Outfit-VariableFont_wght";
 }
-h1,h2,h3,h4 {
+h1,h2 {
     font-family: "YoungSerif-Regular";
 }
+
+.preparation-time {
+  font-weight: bold;
+  font-family: "YoungSerif-Regular";
+}
+
+
 .main {
   margin: 124px 0px;
   display: flex;
@@ -58,12 +65,7 @@ table {
   color: var(--color-stone-900);
 }
 
-td {
-  font-weight: bold;
-}
-
 li::marker,
-td,
 h2,
 .nutrition-table-cell-data {
   color: var(--color-brown-800);
@@ -86,7 +88,7 @@ ol {
 }
 
 .preparation-list > li::marker,
-.preparation > h4 {
+.preparation > .preparation-time {
   color: var(--color-rose-800);
 }
 
